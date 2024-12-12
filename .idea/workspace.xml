@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c394-477a-4fdb-a068-abbff8a3784b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/preview/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/preview/www.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/preview/1 - 副本.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +20,16 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2q5vDC5S2CZzxWoUFf873ZslCkO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -81,11 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1733965141778</updated>
       <workItem from="1733965147053" duration="8685000" />
-      <workItem from="1734008215638" duration="435000" />
+      <workItem from="1734008215638" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
