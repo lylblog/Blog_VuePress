@@ -22,6 +22,7 @@ export default defineThemeConfig({
 
   navbar,
   notes,
+
   social: [
     { icon: 'github', link: '/' },
   ],

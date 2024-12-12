@@ -1,7 +1,8 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-import {BlogPostCoverLayout} from "vuepress-theme-plume/lib/shared";
+import {BlogPostCoverLayout, NotesOptions} from "vuepress-theme-plume/lib/shared";
+import {notes} from "./notes";
 
 export default defineUserConfig({
   base: '/',
@@ -15,8 +16,21 @@ export default defineUserConfig({
     // 添加您的部署域名
     // hostname: 'https://your_site_url',
     // your git repo url
+    notes,
     docsRepo: '',
     docsDir: 'docs',
+
+
+    // 文章页脚贡献者
+    contributors: {
+      mode: 'block',
+      info: [
+        {
+          username: 'lylblog', // github username
+          alias: ['lylblog'], // 别名，本地 git 配置中的用户名
+        }
+      ]
+    },
     blog:{
       postCover: {
         layout: 'odd-left', //'left' | 'right' | 'odd-left' | 'odd-right' | 'top'
@@ -30,14 +44,16 @@ export default defineUserConfig({
     },
 
     plugins: {
+
+      git: true, // process.env.NODE_ENV === 'production',
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
-           // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      // },
+      shiki: {
+        // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['shell', 'bash', 'typescript', 'javascript'],
+      },
 
       /**
        * markdown enhance

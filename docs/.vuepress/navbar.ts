@@ -7,6 +7,10 @@ export const navbar = defineNavbarConfig([
   { text: '归档', link: '/blog/archives/' },
   {
     text: '笔记',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }]
+    items: [
+      { text: 'typescript', link: '/typescript/' },
+      { text: 'Vue', link: '/Vue/' },
+      { text: '关于笔记', link: '/notes/' },
+    ]
   },
 ])

@@ -1,13 +1,18 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
-const demoNote = defineNoteConfig({
-  dir: 'demo',
-  link: '/demo',
-  sidebar: ['', 'foo', 'bar'],
+const typescript  = defineNoteConfig({
+  dir: 'typescript',
+  link: '/typescript',
+  sidebar: 'auto',
+})
+const Vue = defineNoteConfig({
+  dir: 'Vue',
+  link: '/Vue',
+  sidebar: 'auto',
 })
 
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [demoNote],
+  notes: [typescript,Vue],
 })
