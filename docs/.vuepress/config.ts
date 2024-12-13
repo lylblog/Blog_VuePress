@@ -13,7 +13,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: plumeTheme({
     // 添加您的部署域名
-    // hostname: 'https://your_site_url',
+    hostname: 'https://www.lylblog.us.kg',
     // your git repo url
     notes,
     docsRepo: '',
@@ -41,8 +41,13 @@ export default defineUserConfig({
       // 每页显示的文章数量
       pagination: 15,
     },
+
     // 声明版权许可
     copyright: 'CC-BY-4.0',
+
+    footer: {
+    copyright: 'Copyright © 2021-present xxxxxxx',
+    },
     // 文档加密
     encrypt: {
       rules: {
@@ -67,7 +72,7 @@ export default defineUserConfig({
 
     plugins: {
 
-      git: true, // process.env.NODE_ENV === 'production',
+      git: process.env.NODE_ENV === 'production',
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
@@ -96,10 +101,10 @@ export default defineUserConfig({
        */
       markdownPower: {
         imageSize: 'local',
-      //   pdf: true,
+        pdf: true,
       //   caniuse: true,
       //   plot: true,
-      //   bilibili: true,
+        bilibili: true,
       //   youtube: true,
         icons: true,
       //   codepen: true,

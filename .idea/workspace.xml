@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c394-477a-4fdb-a068-abbff8a3784b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/_bulletin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/friends.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" afterDir="false" />
@@ -100,6 +98,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.docs:dev" />
+      <item itemvalue="npm.docs:build" />
+      <item itemvalue="npm.docs:dev-clean" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.docs:build" />
