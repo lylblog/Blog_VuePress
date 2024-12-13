@@ -8,7 +8,7 @@ tags:
   - 预览
   - 组件
 createTime: 2024/12/11 22:51:18
-permalink: /article/3no6ivx5/
+permalink: /article/mdxzzd/
 ---
 
 这里的内容会被作为摘要

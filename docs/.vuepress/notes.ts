@@ -1,5 +1,11 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
+const Go_ashore  = defineNoteConfig({
+  dir: 'Go_ashore',
+  link: '/Go_ashore',
+  sidebar: 'auto',
+})
+
 const typescript  = defineNoteConfig({
   dir: 'typescript',
   link: '/typescript',
@@ -14,5 +20,5 @@ const Vue = defineNoteConfig({
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [typescript,Vue],
+  notes: [typescript,Vue,Go_ashore],
 })

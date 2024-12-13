@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c394-477a-4fdb-a068-abbff8a3784b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/综A/应用文.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/行测/图形推理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/preview/bookmarks_2024_12_3——去重整理.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/friends.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/friends.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/notes/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/notes/博客搭建日记.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/博客搭建日记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/custom-component.example.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/preview/Markdown文档写作指导.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/www.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/notes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/preview/Markdown文档写作指导.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/Markdown文档写作指导.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\VuePress\docs\preview" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\VuePress\docs\notes" />
     </key>
   </component>
   <component name="RunDashboard">

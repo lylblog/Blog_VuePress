@@ -9,6 +9,7 @@ export const navbar = defineNavbarConfig([
   {
     text: '笔记',
     items: [
+      { text: '上岸笔记', link: '/Go_ashore/' },
       { text: 'typescript', link: '/typescript/' },
       { text: 'Vue', link: '/Vue/' },
       { text: '关于笔记', link: '/notes/' },
