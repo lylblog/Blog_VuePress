@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c394-477a-4fdb-a068-abbff8a3784b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/_bulletin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/friends.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (10).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (11).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (12).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (2).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (3).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (4).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (5).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (6).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (7).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (8).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本 (9).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1 - 副本.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
     "npm.docs:build.executor": "Run",
     "npm.docs:dev-clean.executor": "Run",
     "npm.docs:dev.executor": "Run",
-    "ts.external.directory.path": "E:\\Workspace\\WebStorm\\Blog_VuePress\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\project\\VuePress\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,7 +69,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.docs:build">
+  <component name="RunManager" selected="npm.docs:dev">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />

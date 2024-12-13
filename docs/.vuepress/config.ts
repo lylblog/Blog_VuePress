@@ -3,15 +3,14 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import {BlogPostCoverLayout, NotesOptions} from "vuepress-theme-plume/lib/shared";
 import {notes} from "./notes";
+import * as path from "node:path";
 
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'My Blog',
   description: 'aaaaa',
-
   bundler: viteBundler(),
-
   theme: plumeTheme({
     // 添加您的部署域名
     // hostname: 'https://your_site_url',
@@ -41,6 +40,29 @@ export default defineUserConfig({
 
       // 每页显示的文章数量
       pagination: 15,
+    },
+    // 声明版权许可
+    copyright: 'CC-BY-4.0',
+    // 文档加密
+    encrypt: {
+      rules: {
+            // 可以是 md 文件的相对路径，对该文件加密
+        '前端/基础.md': '123456',
+        // 可以是 文件夹的路径，对该目录下所有文章加密
+        '/notes/vuepress-theme-plume/': '123456',
+            // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
+        '/notes/': '123456',
+            // 可以是 具体的某个页面的请求路径，对该页面加密
+        '/typescript/ynth22x8/': '123456',
+            // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
+        '^/(a|b)/': '123456',
+      }
+    },
+    // 公告板
+    bulletin: {
+        layout: 'top-right',
+        title: '公告板标题',
+        contentFile: path.join(__dirname, '_bulletin.md'),
     },
 
     plugins: {
@@ -90,7 +112,6 @@ export default defineUserConfig({
       //     kotlin: true,
       //   },
       },
-
       /**
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
