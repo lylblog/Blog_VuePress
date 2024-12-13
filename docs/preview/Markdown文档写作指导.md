@@ -1,10 +1,22 @@
 ---
-title: Markdown
+title: Markdown文档写作指导
+cover: https://api.pengzhanbo.cn/wallpaper/bing  # 封面图片
+sticky: 0 # 置顶
+#draft: ture  # 是否草稿
 tags:
   - markdown
+  - 预览
+  - 组件
 createTime: 2024/12/11 22:51:18
 permalink: /article/3no6ivx5/
 ---
+
+这里的内容会被作为摘要
+<!-- more -->
+
+[//]: # (自定义组件)
+<CustomComponent />
+
 
 ## 标题 2
 
@@ -312,3 +324,54 @@ span {
     也可以由多个段落组成
 
 [^second]: 脚注文字。
+
+
+
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" />
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="cube" />
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="fade" />
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="coverflow" />
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="flip" />
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="cards" />
+
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="creative" :creativeEffect="{
+  prev: { shadow: true, translate: [0, 0, -400] },
+  next: { translate: ['100%', 0, 0] },
+}"
+/>
+
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="creative" :creativeEffect="{
+  prev: { shadow: true,  translate: [0, 0, -800], rotate: [180, 0, 0] },
+  next: { shadow: true, translate: [0, 0, -800], rotate: [-180, 0, 0] },
+}"
+/>
+
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="creative" :creativeEffect="{
+  prev: { shadow: true, translate: ['-125%', 0, -800], rotate: [0, 0, -90] },
+  next: { shadow: true, translate: ['125%', 0, -800], rotate: [0, 0, 90] },
+}"
+/>
+
+<Swiper :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']" effect="creative" :creativeEffect="{
+  prev: { shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0] },
+  next: { origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0] },
+}"
+/>
+
+<Swiper
+  :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']"
+  mode="carousel"
+  :height="200"
+  :slides-per-view="3"
+  :space-between="20"
+  :speed="5500"
+/>
+
+<Swiper
+  :items="['https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing', 'https://api.pengzhanbo.cn/wallpaper/bing']"
+  mode="broadcast"
+  :height="200"
+  :slides-per-view="3"
+  :space-between="20"
+  mousewheel
+/>

@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2124c394-477a-4fdb-a068-abbff8a3784b" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/preview/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/friends.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/friends.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/notes/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/notes/博客搭建日记.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/博客搭建日记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/preview/1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/preview/custom-component.example.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/preview/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/preview/Markdown文档写作指导.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/preview/www.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

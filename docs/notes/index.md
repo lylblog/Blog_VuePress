@@ -14,11 +14,15 @@ config:
         -
           theme: brand
           text: typescript
-          link: /typescript/fbv1rrhd/
+          link: /typescript/
         -
-          theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          theme: Vue
+          text: Vue
+          link: /Vue/
+        -
+          theme: 部署记录
+          text: VuePress →
+          link: /article/9wwdgj7e/
 permalink: /notes/
 title: 1.notes_index
 createTime: 2024/12/13 00:14:35
