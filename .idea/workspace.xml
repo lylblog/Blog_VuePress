@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c394-477a-4fdb-a068-abbff8a3784b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/综A/应用文.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/行测/图形推理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/preview/bookmarks_2024_12_3——去重整理.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/notes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/preview/Markdown文档写作指导.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/Markdown文档写作指导.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/notes/Go_ashore/综A/应用文.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/综A/应用文.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/notes/Go_ashore/行测/图形推理.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes/Go_ashore/行测/图形推理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     "npm.docs:build.executor": "Run",
     "npm.docs:dev-clean.executor": "Run",
     "npm.docs:dev.executor": "Run",
-    "ts.external.directory.path": "D:\\project\\VuePress\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "E:\\Workspace\\WebStorm\\Blog_VuePress\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -135,6 +131,7 @@
       <workItem from="1734008215638" duration="1167000" />
       <workItem from="1734009904010" duration="8262000" />
       <workItem from="1734018366226" duration="2613000" />
+      <workItem from="1734097940715" duration="286000" />
     </task>
     <servers />
   </component>
